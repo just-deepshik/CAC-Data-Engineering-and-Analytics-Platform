@@ -1,4 +1,4 @@
-# CAC Automation and Visualization Platform
+# CAC-Data-Engineering-and-Analytics-Platform
 
 An end-to-end **data engineering and analytics platform** for automating Customer Acquisition Cost (CAC) analysis.
 
