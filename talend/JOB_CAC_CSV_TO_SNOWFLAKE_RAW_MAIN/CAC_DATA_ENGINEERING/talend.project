@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_tVX_EbN6EfGNy4x6y6kgvg" label="CAC_Data_Engineering" description="" language="java" technicalLabel="CAC_DATA_ENGINEERING" local="true" author="_tYBqcLN6EfGNy4x6y6kgvg" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20260820_0911-patch" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_taa3ILN6EfGNy4x6y6kgvg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_tYBqcLN6EfGNy4x6y6kgvg" login="22h51a6726@cmrcet.ac.in"/>
+</xmi:XMI>

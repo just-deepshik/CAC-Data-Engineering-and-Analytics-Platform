@@ -1,0 +1,21 @@
+-- ============================================================
+-- CAC Analytics Platform
+-- Snowflake STAGING Layer
+-- ============================================================
+
+USE DATABASE CAC_ANALYTICS;
+USE SCHEMA STAGING;
+
+CREATE OR REPLACE TABLE CUSTOMER_ACQUISITION_STG AS
+SELECT
+    CUSTOMER_ID,
+    MARKETING_CHANNEL,
+    MARKETING_SPEND,
+    NEW_CUSTOMERS,
+    SOURCE_FILE_NAME,
+    LOADED_AT
+FROM CAC_ANALYTICS.RAW.CUSTOMER_ACQUISITION_RAW
+QUALIFY ROW_NUMBER() OVER (
+    PARTITION BY CUSTOMER_ID
+    ORDER BY LOADED_AT DESC
+) = 1;

@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.jupyter/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# Talend generated/local files
+**/.metadata/
+**/target/
+**/temp/
+
+# Talend exported ZIPs / archives
+*.zip
+
+# Local/private Tableau workbook
+CAC_Executive_Dashboard_Snowflake_Live.twbx

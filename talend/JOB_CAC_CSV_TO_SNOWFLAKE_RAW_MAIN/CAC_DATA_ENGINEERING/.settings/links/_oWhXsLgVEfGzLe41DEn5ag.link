@@ -1,0 +1,17 @@
+{
+  "itemId" : "_oWhXsLgVEfGzLe41DEn5ag",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__gX_cLgmEfGzLe41DEn5ag",
+    "parameterList" : [ {
+      "id" : "_ZLa0wLg8EfGzLe41DEn5ag",
+      "name" : "reject_file_path"
+    }, {
+      "id" : "__hrnALgmEfGzLe41DEn5ag",
+      "name" : "snowflake_password"
+    }, {
+      "id" : "_ZLaNsLg8EfGzLe41DEn5ag",
+      "name" : "source_file_path"
+    } ]
+  } ]
+}

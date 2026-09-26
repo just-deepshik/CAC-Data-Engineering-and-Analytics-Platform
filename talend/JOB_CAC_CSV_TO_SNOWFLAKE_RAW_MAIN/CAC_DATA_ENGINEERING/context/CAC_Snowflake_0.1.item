@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="__hqY4LgmEfGzLe41DEn5ag" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="__hrnALgmEfGzLe41DEn5ag" comment="Snowflake authentication password" name="snowflake_password" prompt="snowflake_password?" promptNeeded="true" repositoryContextId="built-in" type="id_Password" value=""/>
+  <contextParameter xmi:id="_snowflake_user_20260926" comment="Snowflake authentication user" name="snowflake_user" prompt="snowflake_user?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_ZLaNsLg8EfGzLe41DEn5ag" comment="Path to the CAC source CSV file" name="source_file_path" prompt="source_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="customer_acquisition_cost_dataset(FOR JUPYTER NOTEBOOK).csv"/>
+  <contextParameter xmi:id="_ZLa0wLg8EfGzLe41DEn5ag" comment="Path to the rejected-record output file" name="reject_file_path" prompt="reject_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="data/rejects/customer_acquisition_cost_rejects.csv"/>
+</talendfile:ContextType>
